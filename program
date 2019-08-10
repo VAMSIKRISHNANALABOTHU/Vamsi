@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ int x,p,cost=0,cost2,cost3;
+ st("%d%d",&x,&p);
+ while(x)
+ {
+  cost+=x;
+  cost2=(p/100*x);
+  cost3=x-cost2;
+  x=cost3;
+ }
+ printf("%d",cost);
+}
